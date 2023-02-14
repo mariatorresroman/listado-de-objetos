@@ -1,0 +1,28 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado Objetos</title>
+    <script>
+         let personajes={"name": "Marco", "year": 2002, "type":"hola"}
+         let juegos = [
+         {"name": "Roquet league", "year": 2022, "type":"Multijugador online"},
+         {"name": "Fortnite", "year": 2017, "type":"Multijugador online"},
+         {"name": "Marco", "year": 2002, "type":"hola"}
+
+
+    ];
+    </script>
+</head>
+<body>
+     Nombre: <span id="nombre"></span><br>
+     <input type="button" value="Siguiente">
+     <script>
+        document.getElementById("nombre").innerHTML=juegos[2].type;
+
+     </script>
+
+    </body>
+</html>
