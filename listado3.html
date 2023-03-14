@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sumar(x, y,z){
+            total= x + y + z;
+            return total;
+        }
+        function suma_lista(lista_numeros){
+            let total = 0;
+            let i = 0;
+            while(i<lista_numeros.length){
+                total= total + lista_numeros[i];
+            }
+            return total;
+
+        }
+        function mayor (a,b){
+            if (a<b){
+                return b;
+            }else{
+                return a;
+
+            }
+        }
+       function menor (a,b){
+        if (a>b){
+            return b;
+        }else{
+            return a;
+        }
+        }
+
+     
+
+
+            
+    </script>   
+</head>
+<body>
+    <script>
+        total = sumar(3,4,3);
+        console.log("El total es: "+ total);
+
+        total= mayor(3,6);
+        console.log("El numero mayor es:" + total);
+
+        total= menor(5,8);
+        console.log("El numero menor es:"+ total);
+
+        total= numero(5)
+    </script>
+</body>
+</html>
